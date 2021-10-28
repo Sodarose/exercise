@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--基础信息-->
+    <modelVersion>4.0.0</modelVersion>
+    <name>socket</name>
+    <description>socket</description>
+    <packaging>jar</packaging>
+
+    <!--模块信息-->
+    <groupId>com.xinghuajiang</groupId>
+    <artifactId>socket</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <!--继承信息-->
+    <parent>
+        <groupId>com.xinghuajiang</groupId>
+        <artifactId>exercise</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!--自定义信息-->
+    <properties>
+        <netty.version>4.1.69.Final</netty.version>
+    </properties>
+
+    <!--依赖信息-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
