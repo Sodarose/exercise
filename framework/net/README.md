@@ -1,2 +1,3 @@
 # net
-网络模块
+-- bootstrap    网络程序
+-- properties   配置
